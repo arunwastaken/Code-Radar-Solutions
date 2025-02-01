@@ -15,14 +15,14 @@ int main()
     {
         printf("Consonant");
     }
-}
-else if(a >= '0' && a <= '9')
-{
-    print("DIgit");
-}
-else
-{
-    printf("Special Character");
-}
+    }
+    else if(a >= '0' && a <= '9')
+    {
+        print("Digit");
+    }
+    else
+    {
+        printf("Special Character");
+    }
     return 0;
 }
