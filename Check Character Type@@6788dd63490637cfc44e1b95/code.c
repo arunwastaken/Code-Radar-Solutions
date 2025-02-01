@@ -18,7 +18,7 @@ int main()
     }
     else if(a >= '0' && a <= '9')
     {
-        print("Digit");
+        printf("Digit");
     }
     else
     {
