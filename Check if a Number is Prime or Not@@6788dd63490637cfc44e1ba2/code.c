@@ -6,6 +6,7 @@ int main()
     if(a == 1)
     {
         printf("Not Prime");
+        return 0;
     }
     int p = 1;
     for(int i = 2; i < a; i++)
