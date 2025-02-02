@@ -2,27 +2,26 @@
 int main()
 {
     int a;
-    scanf("%a", &a);
-    if(a == 1)
-    {
-        printf("Not Prime");
-        return 0;
-    }
+    scanf("%d", &a);
     int p = 1;
-    for(int i = 2; i < a; i++)
+    if(a < 2)
     {
-        if(a%i == 0)
-        {
-            p = 0;
-            break;
+        p = 0;
+    }
+    else{
+        for(int i = 2; i < a; i++){
+            if(a%i == 0)
+            {
+                p = 0;
+                break;
+            }
         }
     }
-    if(p)
-    {
+
+    if(p){
         printf("Prime");
     }
-    else
-    {
+    else{
         printf("Not Prime");
     }
     return 0;
