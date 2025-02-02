@@ -1,11 +1,12 @@
 #include<stdio.h>
+#include <ctype.h>
 int main()
 {
     int marks;
     scanf("%d", &marks);
     if(marks >= 90)
     {
-        printf("A");
+        printf('A');
     }
     else if(90 >= marks < 80)
     {
