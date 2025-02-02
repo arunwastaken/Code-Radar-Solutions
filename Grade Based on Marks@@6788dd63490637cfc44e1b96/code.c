@@ -5,7 +5,7 @@ int main()
     scanf("%d", &marks);
     if(marks >= 90)
     {
-        printf('A');
+        printf("A");
     }
     else if(90 >= marks < 80)
     {
