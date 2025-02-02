@@ -1,24 +1,23 @@
 #include<stdio.h>
-#include <ctype.h>
 int main()
 {
     int marks;
     scanf("%d", &marks);
     if(marks >= 90)
     {
-        printf('A');
+        printf("A");
     }
-    else if(90 >= marks < 80)
+    else if(marks >= 80 && marks < 90)
     {
-        printf('B');
+        printf("B");
     }
-    else if(80 >= marks < 70)
+    else if(marks >= 70 && marks < 80)
     {
-        printf('C');
+        printf("C");
     }
-    else if(70 >= marks < 60)
+    else if(marks >= 60 && marks < 70)
     {
-        printf('D');
+        printf("D");
     }
     else
     {
