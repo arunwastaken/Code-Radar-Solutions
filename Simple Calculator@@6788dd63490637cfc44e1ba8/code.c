@@ -19,8 +19,5 @@ int main()
     {
         printf(a/b);
     }
-    else{
-        printf("Invalid")
-    }
     return 0;
 }
