@@ -23,7 +23,7 @@ int main()
     else if(c == '/')
     if(b==0)
     {
-        printf("errpr\n");
+        printf("error\n");
     }
     else{
         printf("%d", a/b);
