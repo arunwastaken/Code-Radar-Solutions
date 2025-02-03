@@ -2,17 +2,17 @@
 #include<ctype.h>
 int main()
 {
-    char c;
-    scanf("%c", &c);
-    if(c == 'A')
+    char a;
+    scanf("%c", &a);
+    if(a == 'A')
     {
         printf("Excellent");
     }
-    else if(c == 'B')
+    else if(a == 'B')
     {
         printf("Good");
     }
-    else if(c == 'C')
+    else if(a == 'C')
     {
         printf("Average");
     }
