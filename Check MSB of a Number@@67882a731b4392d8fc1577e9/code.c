@@ -5,7 +5,7 @@ int main()
     scanf("%d", &a);
     if(a & 0x80000000)
     {
-        prinf("Set");
+        printf("Set");
     }
     else
     {
