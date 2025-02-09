@@ -1,10 +1,11 @@
 #inlude<stdio.h>
 int main()
 {
-    int a, b, c, d;
+    int a, b;
     scanf("%d %d", &a, &b);
-    a == c;
-    b == d;
-    printf("%d %d", d, c);
+    a = a ^ b;
+    b = a ^ b;
+    a = a ^ b;
+    printf("%d %d", a, b);
     return 0;
 }
