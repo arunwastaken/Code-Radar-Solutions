@@ -16,7 +16,7 @@ int main()
             printf("0");
         }
     }
-    if(!flag)
+    if(!f)
     {
         printf("0");
     }
