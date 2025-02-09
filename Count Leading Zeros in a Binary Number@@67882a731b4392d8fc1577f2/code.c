@@ -17,5 +17,6 @@ int main()
         c++;
     }
     printf("%d", c);
+    return 0;
 
 }
