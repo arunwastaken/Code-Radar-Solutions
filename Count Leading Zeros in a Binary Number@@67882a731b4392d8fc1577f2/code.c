@@ -6,6 +6,7 @@ int main()
     if(a == 0)
     {
         printf("32");
+        return 0;
     }
     fot(int i = 31; i >= 0; i--)
     {
@@ -17,5 +18,4 @@ int main()
     }
     printf("%d", c);
 
-    return 0;
 }
