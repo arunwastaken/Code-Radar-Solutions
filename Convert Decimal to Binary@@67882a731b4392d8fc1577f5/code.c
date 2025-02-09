@@ -6,7 +6,7 @@ int main()
     int i, f=0;
     for(i = 31; i >= 0; i--)
     {
-        if(a(1 << i))
+        if(a & (1 << i))
         {
             f = 1;
             printf("1");
