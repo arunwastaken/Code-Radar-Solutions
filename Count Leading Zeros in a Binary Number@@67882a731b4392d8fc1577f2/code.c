@@ -8,7 +8,7 @@ int main()
         printf("32");
         return 0;
     }
-    fot(int i = 31; i >= 0; i--)
+    for(int i = 31; i >= 0; i--)
     {
         if(a & (1 << i))
         {
